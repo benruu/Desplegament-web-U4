@@ -31,6 +31,7 @@ class Principal {
 
         // 
         if ($resultado->num_rows > 0) {
+            echo '<h1>Principal desde la branca MAIN</h1>';
             echo '<hr><a href="Nou.php" class="btn btn-primary">Nou producte</a><hr>';
             echo '<table class="table table-striped">';
             echo '<thead>
